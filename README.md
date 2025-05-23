@@ -2,15 +2,14 @@
 
 # Proyecto de aprendizaje
 
-En este proyecto desarrollaremos un clasificador de imágenes y video basado en Deep Learning utilizando el conjunto de datos de personajes de los Simpsons. La solución combina procesamiento de imágenes, redes neuronales CNN y una interfaz web interactiva mediante Gradio para facilitar la visualización y uso del modelo.
+El dataset a utilizar consiste en imágenes de personajes de los Simpsons extraídas directamente de capítulos de la serie. Este dataset ha sido recopilado por [Alexandre Attia](https://medium.com/@alexattia18) (vamos a utilizar los 18 personajes con más imágenes), los personajes pueden aparecer en distintas poses, en distintas posiciones de la imagen o con otros personajes en pantalla (si bien el personaje a clasificar siempre aparece en la posición predominante).
 
 # ¿Qué haremos técnicamente?
 
 **1. Carga y Preprocesamiento de Datos**  
    - Cargaremos el conjunto de datos.
    - Redimensionaremos y normalizaremos las imágenes.
-   - Convertiremos las etiquetas a formato categórico (one-hot encoding).
-   - Aplanaremos las imágenes para pasarlas a una red CNN.
+   - Aplanaremos las imágenes para pasarlas a una red CNN y Resnet.
 
 **2. Construcción del Modelo**  
    - Diseñaremos una red neuronal CNN.
@@ -41,7 +40,7 @@ En este proyecto desarrollaremos un clasificador de imágenes y video basado en 
    
    - Python 3.x: Si deseas ejecutar el proyecto localmente.
    
-   - Internet: Para descargar el conjunto de datos de CIFAR-100 y los modelos.
+   - Internet: Para descargar el conjunto de datos de los Simpsons y los modelos.
 
 # Instrucciones de uso 
 
@@ -125,5 +124,7 @@ En este proyecto desarrollaremos un clasificador de imágenes y video basado en 
 
 
 # Documentación y enlaces útiles
+
+-[Alexandre Attia](https://medium.com/@alexattia18)
   
-- [Documentación de Keras](https://keras.io/api/optimizers/)
+-[Documentación de Keras](https://keras.io/api/optimizers/)
